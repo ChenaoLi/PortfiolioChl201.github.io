@@ -1,0 +1,179 @@
+#homepage {
+  background-image: linear-gradient(#51edd8, #837fff);
+}
+.content {
+  display: none;
+}
+.container-fluid {
+  padding: 6% 12%;
+}
+
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 1.5;
+  color: #fff;
+}
+
+h2 {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Rubik', sans-serif;
+  color: #fff;
+  font-size: 22px;
+}
+
+.card-link {
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  font-size: 23px;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.5); /* 背景颜色，通过 alpha 通道设置透明度 */
+  color: black;
+  border-radius: 10px; /* 圆角效果，可根据需要调整 */
+  backdrop-filter: blur(1opx);
+  opacity: 60%;
+}
+
+.card-link:hover {
+  color: rgb(55, 67, 239);
+}
+
+/* navbar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Rubik', sans-serif;
+  font-size: 2.0rem;
+  font-weight: bold;
+}
+
+.navbar-brand img {
+  width: 75px; /* 设置图片宽度 */
+  height: auto; /* 让高度自动调整，保持宽高比 */
+  border-radius: 15px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.3rem;
+}
+
+.dropdown-menu {
+  background-color: rgba(255, 255, 255, 0.5); /* 背景颜色，通过 alpha 通道设置透明度 */
+  border-radius: 10px; /* 圆角效果，可根据需要调整 */
+  padding: 20px;
+  backdrop-filter: blur(10px);
+}
+
+.dropdown-item {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.3rem;
+}
+
+
+.icon {
+  color: #FFC436;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #51A0D5;
+}
+
+.container{
+  text-align: center;
+}
+/* work-column */
+.work-column {
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.7); /* 调整透明度，使文字更清晰可读 */
+  backdrop-filter: blur(8px); /* 模糊效果 */
+  border-radius: 15px; /* 圆角效果 */
+  overflow: hidden; /* 保证内容不溢出圆角 */
+}
+
+.card-img {
+  border-radius: 15px 15px 0 0; /* 图片的圆角效果，保持左上右上为圆角，左下右下为直角 */
+}
+
+.pworktext {
+  color: rgb(50, 50, 50);
+  opacity: 70%;
+  text-align: center;
+}
+
+
+/* Testimonials */
+
+
+
+/* footer */
+#footer {
+  padding: 10% 15%;
+  text-align: center;
+  background-image: linear-gradient(#837fff, #51edd8);
+
+}
+
+.copyright-text {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  color: #fff;
+}
+
+.social-icon {
+  margin: 10px 15px;
+}
+
+.contacticon {
+  text-align: center;
+}
+
+.social-icon:hover {
+  color: rgb(86, 255, 185);
+}
+
+.fa-facebook {
+  color: #1877F2;
+}
+
+.fa-instagram {
+  color: #DD2A7B;
+}
+
+.fa-linkedin {
+  color: #9cdcff;
+}
+
+.fa-envelope {
+  color: #FFC436;
+}
+
+/* COGS3 studyBuddy specific styles go here. */
